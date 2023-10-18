@@ -24970,4 +24970,20 @@ cid_concepts[12254] = \
         'IsovolumicRelaxationTime'],
  'SCT': ['BloodPressure']}
 
+name_for_cid[8135] = "MicroscopyAnnotationPropertyType"
+cid_concepts[8135] = \
+{
+    'SCT': [
+        'Cell',
+        'Nucleus'
+    ]
+}
+
+name_for_cid[8136] = "MicroscopyMeasurementType"
+cid_concepts[8136] = \
+{
+    'SCT': [
+        'Area',
+    ]
+}
 
