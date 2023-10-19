@@ -252,6 +252,27 @@ class TestCodesDict:
             meaning="P' wave (second deflection in P wave)",
         )
 
+    def test_cid8135_cell(self):
+        assert codes.cid8135.Cell == Code(
+            value="4421005",
+            scheme_designator="SCT",
+            meaning="Cell",
+        )
+
+    def test_cid8135_nucleus(self):
+        assert codes.cid8135.Nucleus == Code(
+            value="84640000",
+            scheme_designator="SCT",
+            meaning="Nucleus",
+        )
+
+    def test_cid8136_area(self):
+        assert codes.cid8136.Area == Code(
+            value="42798000",
+            scheme_designator="SCT",
+            meaning="Area",
+        )
+
     def test_contained(self):
         c = Code("24028007", "SCT", "Right")
         assert c in codes.cid244

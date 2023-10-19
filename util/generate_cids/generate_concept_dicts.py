@@ -56,6 +56,7 @@ FHIR_SYSTEM_TO_DICOM_SCHEME_DESIGNATOR = {
     "http://ncit.nci.nih.gov": "NCIt",
     "http://unitsofmeasure.org": "UCUM",
     "http://hl7.org/fhir/sid/ndc": "NDC",
+    "http://hl7.org/fhir/sid/icd-10": "I10",
     "urn:iso:std:iso:11073:10101": "MDC",
     "doi:10.1016/S0735-1097(99)00126-6": "BARI",
     "http://www.nlm.nih.gov/research/umls": "UMLS",
